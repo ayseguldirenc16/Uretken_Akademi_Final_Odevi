@@ -1,8 +1,15 @@
-# React + Vite
+Atık Yönetimi ve Çevre Analizi Projesi
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bu proje, atık yönetimi ve çevre zararlarını analiz etmek amacıyla geliştirilmiştir. Projede, yıllara göre toplanan atık miktarlarına ilişkin veriler API aracılığıyla sunulmaktadır. Bu veriler arasında atık pil miktarı, lastik miktarı, tıbbi atıklar, ambalaj atıkları ve daha fazlası bulunmaktadır.
 
-Currently, two official plugins are available:
+Kullanılan Teknolojiler
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Vite: Hızlı ve modern bir JavaScript aracı olan Vite, projenin geliştirilmesinde kullanılmıştır.
+
+React Router Dom: React uygulamalarında kullanılan bir yönlendirme kütüphanesidir. Sayfa gezinimini kolaylaştırmak için kullanılmıştır.
+
+Tailwind CSS & Bootstrap: Hızlı bir şekilde özelleştirilebilir ve kullanışlı bileşenler sunan CSS kütüphaneleridir. Projenin stilini oluşturmak için kullanılmıştır.
+
+Proje Hakkında
+
+Bu proje, atık yönetimi konusunda farkındalık oluşturmayı ve çevresel etkileri analiz etmeyi amaçlamaktadır. API aracılığıyla sunulan veriler, kullanıcıların atık miktarlarını görselleştirmesine ve çevresel etkileri anlamasına yardımcı olur. Projede, kullanıcılar farklı atık türlerini ve yıllara göre değişen trendleri görebilirler.
