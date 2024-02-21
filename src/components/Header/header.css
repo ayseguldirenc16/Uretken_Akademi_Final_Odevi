@@ -1,0 +1,35 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px; 
+  }
+  
+  .logo {
+    flex: 1; 
+
+
+  }
+  .logo:hover{
+    cursor: pointer;
+  
+
+  }
+  
+  .navbar-nav {
+    display: flex;
+    gap: 10px; 
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color: white;
+    transition: background-color 0.3s; 
+  }
+  
+  .nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.1); 
+    border-radius: 5px;
+    padding: 5px; 
+  }
+  
