@@ -27,13 +27,14 @@
     border-radius: 50px;
     position: absolute;
     top: 350px;
-    left: 600px;
+    left: 650px;
     transform: translate(-50%, -50%);
     text-align: center;
     color: rgb(243, 243, 243); 
     font-size: 20px;
     width: 40%;
     font: bold;
+    background-color: rgba(25, 27, 32, 0.486);
     
   }
   .section-text p{

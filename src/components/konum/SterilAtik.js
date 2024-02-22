@@ -201,10 +201,8 @@ const SterilAtik = [
      "ARALIK": 542.28,
      "TOPLAM": 4678.038
     },
-    {
-     "YIL": 2021
-    }
-    // sterilize edilmiş atık
+   
+
    ]
 
    export default SterilAtik

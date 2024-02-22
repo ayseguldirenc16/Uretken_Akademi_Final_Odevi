@@ -11,7 +11,7 @@ function Section() {
           <div className="section-img">
             <img src={anaimg} alt="" />
           </div>
-          <div className="section-text">
+          <div className="section-text ">
             <p>ÇÖP DEĞİL ATIK: ATIK YÖNETİMİ</p>
 
           </div>

@@ -31,7 +31,7 @@
   }
   
   .content div:last-child {
-    margin-bottom: 0; /* Son div için alt boşluğu kaldır */
+    margin-bottom: 0; 
   }
   
   .content p {

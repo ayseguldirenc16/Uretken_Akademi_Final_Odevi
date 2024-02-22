@@ -13,20 +13,15 @@ function App() {
   return (
     <>
       <BrowserRouter>
-      <div>
         <Header />
         <Routes>
-        <Route path='/' element={<Space />} /> 
-        <Route path='/AtikTakip' element={<AtikTakip />} />
-        <Route path='/About' element={<About />} />
-        <Route path='/content' element={<Content />} />
-          
-          
+          <Route path='/' element={<Space />} />
+          <Route path='/AtikTakip' element={<AtikTakip />} />
+          <Route path='/About' element={<About />} />
+          <Route path='/content' element={<Content />} />
         </Routes>
-       
         <Footer />
-      </div>
-    </BrowserRouter>
+      </BrowserRouter>
     </>
   )
 }

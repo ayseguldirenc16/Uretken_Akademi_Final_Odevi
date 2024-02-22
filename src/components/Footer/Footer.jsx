@@ -1,66 +1,47 @@
-import { FaInstagram } from "react-icons/fa";
-import {  BsTwitterX } from "react-icons/bs";
-import { CiYoutube } from "react-icons/ci";
-import { FiFacebook } from "react-icons/fi";
-import './footer.css'
-import footerLogo from '/images/footerLogo.png';
-import unesco from '/images/unesco.png';
-import googleplay from '/images/googleplay.png';
-import appstore from '/images/appstore.png';
+import footerLogo from '../../../public/images/footerLogo.png'
+import googleplay from '../../../public/images/googleplay.png'
+import appstore from '../../../public/images/appstore.png'
+import unesco from '../../../public/images/unesco.png'
+import { CiInstagram, CiYoutube } from "react-icons/ci";
+import {BsTwitter} from "react-icons/bs";
+import {FiFacebook} from "react-icons/fi";
+
 
 function Footer() {
   return (
     <>
-      <div className="footer-container  bg-gray-900">
-        <div className=' pt-1 '>
-          <div className="container  flex flex-col items-start text-white ">
-            <div className='footer-icon'>
-              <a href="https://www.instagram.com/bursabuyuksehir/"  target='_blank'><FaInstagram className='footer-icons' /></a>
-            </div>
-            <div className='footer-icon'>
-              <a href="https://twitter.com/bursabuyuksehir"  target='_blank'><BsTwitterX className='footer-icons'  /></a>
-            </div >
-            <div className='footer-icon'>
-              <a href="https://www.youtube.com/c/BursaB%C3%BCy%C3%BCk%C5%9FehirBelediyesi16"  target='_blank'><CiYoutube className='footer-icons' /></a>
-            </div>
-            <div className='footer-icon'>
-              <a href="https://www.facebook.com/bursabuyuksehir"  target='_blank'><FiFacebook className='footer-icons' /></a>
-            </div>
-          </div>
-          <div className="footer-text text-white">
-            <div >
-              <h3 className=' font-bold text-center '>Adres</h3>
-              <div className='footer-adress'>
-                <p  > Zafer Mah. Ankara yolu Caddesi. No: 1 16080 Osmangazi/BURSA Telefon: ALO 153 / 444 16 00</p>
+      <div className=" bg-gray-900 max-w-full h-52 mt-9 ">
+        <div className="container  ">
+          <footer className="">
+            <div className="container  flex flex-col items-end text-white ">
+              <div className="logo">
+                <img src={footerLogo} alt="" width="50px" className=' mt-2 mb-2'/>
+                <img src={googleplay} alt="" width="50px" className=' mb-2'/>
+                <img src={appstore} alt="" width="50px" className=' mb-2' />
+                <img src={unesco} alt="" width="50px" />
               </div>
-              
             </div>
-
-          </div>
+            <div className=" flex flex-col items-start text-white relative bottom-32   ">
+        <a className=" mb-4  hover:bg-slate-300" href="https://www.instagram.com/bursabuyuksehir/ " target='_blank'>
           <div >
-            <p className='footer-id text-white'>By Ayşegül Direnç | © 2024 </p>
+          <CiInstagram className='w-9 rounded-xl right-2 text-white ' />
           </div>
-          <div className="container   footer-images">
-            <div className=" footer-img">
-              <img src={footerLogo} alt="" width={"55px"} />
-            </div>
-            <div className="footer-img">
-              <img src={unesco} alt="" width={"55px"} />
-            </div>
-            <div className="footer-img">
-              <img src={googleplay} alt="" width={"55px"} />
-            </div>
-            <div className="footer-img">
-              <img src={appstore} alt="" width={"55px"} />
-            </div>
-          </div>
-
-
-
-
-        </div>
+        </a>
+        <a className=" mb-4 hover:bg-slate-300 top-3  " href="https://twitter.com/bursabuyuksehir" target='_blank'>
+          <BsTwitter className='w-9 rounded-xl right-2 text-white'  />
+        </a>
+        <a className=" mb-4 hover:bg-slate-300" href="https://www.youtube.com/c/BursaB%C3%BCy%C3%BCk%C5%9FehirBelediyesi16" target='_blank'>
+          <CiYoutube className='w-9 rounded-xl right-2 text-white' />
+        </a>
+        <a className="  hover:bg-slate-300" href="https://www.facebook.com/bursabuyuksehir" target='_blank'>
+          <FiFacebook className='w-9 rounded-xl right-2 text-white ' />
+        </a>
       </div>
+            <p className="text-center text-white relative bottom-44">© 2024 Ayşegül Direnç, Inc</p>
+          </footer>
+        </div>
 
+      </div>
     </>
   )
 }

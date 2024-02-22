@@ -5,47 +5,41 @@ function About() {
   return (
     <>
       <div className=' container'>
-        <div className=' about-div'>
-          <h2>Biz Kimiz?</h2>
-          <hr />
-          <p>
-          Su yönetimi ve akıllı şehircilik alanlarında faaliyet gösteren bir belediye olarak, su kaynaklarının etkili bir şekilde yönetilmesini ve şehirlerin su sürdürülebilirliğini artırmayı hedefliyoruz. Teknolojiyi ve veri analitiğini kullanarak, su tüketimi ve kaynakları üzerinde olumlu etkiler sağlayacak yenilikçi çözümler geliştiriyoruz.
-          </p>
-        </div>
+
         <div className=' about-div'>
           <h2>Misyonumuz</h2>
           <hr />
-          <p>Misyonumuz, su kaynaklarının sürdürülebilir yönetimini sağlamak ve akıllı şehirlerin su güvenliğini artırmak için yenilikçi yaklaşımlar geliştirmektir. Su tüketim alışkanlıklarını değiştirerek, su kaynaklarını korumak ve gelecek nesillere temiz su temin etmek için çalışıyoruz.
+          <p>Misyonumuz, atık yönetimi konusunda sürdürülebilir çözümler üreterek çevreyi korumak ve gelecek nesillere temiz bir çevre bırakmaktır. Atık pil, elektronik atıklar, sterilize edilmiş atıklar ve ambalaj atıkları gibi farklı atık türlerinin çevresel etkilerini azaltmak için çalışıyoruz.
 
-</p>
+          </p>
         </div>
         <div className=' about-div'>
           <h2>Vizyonumuz</h2>
           <hr />
           <p>
 
-          Vizyonumuz, su kaynaklarının etkin ve adil bir şekilde kullanıldığı, su krizlerinin önüne geçilen ve su sürdürülebilirliğinin sağlandığı bir dünya oluşturmaktır. Akıllı şehirlerin su altyapılarını iyileştirerek ve suyun bilinçli bir şekilde kullanımını teşvik ederek, su kaynaklarını koruyor ve şehirlerin daha dayanıklı hale gelmesini sağlıyoruz.</p>
+            Vizyonumuz, atıkların çevreye olan etkisini minimize ederek, sıfır atık hedefine ulaşmak ve şehirlerimizi daha temiz ve yaşanabilir hale getirmektir. Atık yönetimi alanında liderlik ederek, toplumumuzu çevresel bilinç konusunda eğitmek ve bilinçlendirmek suretiyle, daha yeşil bir gelecek için çalışıyoruz.</p>
         </div>
         <div className=' about-div'>
           <h2>Hedeflerimiz</h2>
           <hr />
           <p>
 
-          Hedeflerimiz arasında, su kaynaklarının izlenmesi ve yönetilmesi için akıllı sensörler ve veri analitiği kullanarak su tüketimini optimize etmek, suyun israfını önlemek ve suyun sürdürülebilirliğini sağlamak yer almaktadır. Ayrıca, su tasarrufu ve bilinçlendirme kampanyaları düzenleyerek toplumun su kullanımı konusunda bilinçlenmesini ve değişim sağlamayı amaçlıyoruz.</p>
+            Hedeflerimiz arasında, atık yönetimi süreçlerini optimize etmek, atık miktarını azaltmak ve geri dönüşüm oranlarını artırmak yer almaktadır. Ayrıca, atık pil, elektronik atıklar, sterilize edilmiş atıklar ve ambalaj atıkları gibi özel atık türleri için yenilikçi geri dönüşüm ve bertaraf yöntemleri geliştirmeyi amaçlıyoruz</p>
         </div>
         <div className=' about-div'>
           <h2>Nasıl Çalışıyoruz?</h2>
           <hr />
           <p>
 
-          Çalışmalarımızı, su kaynaklarının sürdürülebilir yönetimi ve akıllı su altyapılarının geliştirilmesi üzerine odaklanarak sürdürüyoruz. Mühendislik, çevre bilimi, bilgi teknolojileri ve su yönetimi uzmanlarının bir araya gelmesiyle, su krizlerini önlemeye ve su kaynaklarını korumaya yönelik çözümler üretiyoruz. Veri odaklı yaklaşımlarımızı, su kullanımını analiz ederek ve su tüketim alışkanlıklarını belirleyerek şekillendiriyoruz.</p>
+            Çalışmalarımızı, atık yönetimi süreçlerini optimize etmek ve çevresel etkileri azaltmak üzerine odaklanarak sürdürüyoruz. Atık ayrıştırma, geri dönüşüm, ve yeniden kullanım gibi yöntemlerle atıkların etkilerini en aza indirmek için çaba sarf ediyoruz. Ayrıca, toplumumuzu atık yönetimi konusunda eğitmek ve bilinçlendirmek için kampanyalar düzenliyoruz.</p>
         </div>
-        <div  className=' about-div mb-5' >
+        <div className=' about-div mb-5' >
           <h2>Projemiz Hakkında</h2>
           <hr />
           <p>
 
-          Projemiz, akıllı şehircilik ve su yönetimi alanlarında çözümler sunan bir platform geliştirmeyi amaçlamaktadır. Bu platform, su harcama verilerini izlemeyi, analiz etmeyi ve paylaşmayı sağlayarak, şehirlerin su kullanımını optimize etmeye ve su sürdürülebilirliğini artırmaya yardımcı olacaktır. Ayrıca, su tüketim alışkanlıklarını değiştirmeye yönelik bilinçlendirme kampanyaları ve su tasarrufu uygulamaları da içerecek olan projemiz, şehirlerin su krizlerine karşı daha hazırlıklı olmalarını sağlayacaktır</p>
+            Projemiz, atıkların çevreye olan etkisini azaltmayı ve atık yönetimi süreçlerini optimize etmeyi amaçlamaktadır. Bu proje kapsamında, atık pil, elektronik atıklar, sterilize edilmiş atıklar ve ambalaj atıkları gibi farklı atık türleri için özel geri dönüşüm ve bertaraf yöntemleri geliştirilecek ve uygulanacaktır. Ayrıca, toplumumuzu atık yönetimi konusunda bilinçlendirmek için çeşitli eğitim ve bilgilendirme programları düzenlenecektir.</p>
         </div>
       </div>
     </>
