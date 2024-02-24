@@ -1,10 +1,11 @@
 
 import { CiInstagram , CiYoutube} from 'react-icons/ci';
-import { BsTwitter } from 'react-icons/bs';
+
 import { FiFacebook } from 'react-icons/fi';
 
 
 import { Link } from 'react-router-dom';
+import ThemeIcon from '../ThemeIcon';
 
 
 function Header() {
@@ -49,10 +50,9 @@ function Header() {
           <FiFacebook className='w-9 rounded-xl right-2 text-black ' />
         </a>
       </div>
-          <div className="button">
-            <button className=' bg-green-600 border-2 w-20 h-12 text-black font-bold mr-4 rounded-full'> Giriş Yap </button>
-            <button className=' bg-red-600 border-2 w-20 h-12 text-white font-bold mr-4 rounded-full'> Çıkış Yap </button>
-          </div>
+      <div className=' flex items-end justify-end relative right-8 '>
+        <ThemeIcon />
+      </div>
       </div>
       <hr />
     
