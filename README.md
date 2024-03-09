@@ -13,3 +13,6 @@ Tailwind CSS & Bootstrap: Hızlı bir şekilde özelleştirilebilir ve kullanı�
 Proje Hakkında
 
 Bu proje, atık yönetimi konusunda farkındalık oluşturmayı ve çevresel etkileri analiz etmeyi amaçlamaktadır. API aracılığıyla sunulan veriler, kullanıcıların atık miktarlarını görselleştirmesine ve çevresel etkileri anlamasına yardımcı olur. Projede, kullanıcılar farklı atık türlerini ve yıllara göre değişen trendleri görebilirler.
+
+
+Vercel Link : https://belediye-proje-24stj1i5g-aysegul-direncs-projects.vercel.app/
