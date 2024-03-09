@@ -1,17 +1,18 @@
 import  { useState, useEffect } from 'react';
-import veri from './Lastik.json'; // Lastik.json dosyasını projeye dahil edin
+import veri from './Lastik.json'; 
 
 function VeriCekme() {
   const [data, setData] = useState(null);
 
   useEffect(() => {
-    // JSON dosyasından verileri yükleme
+ 
     setData(veri);
-  }, []); // Bu useEffect sadece bir kere çalışacak, komponent yüklendiğinde
+  }, []); 
 
   return (
     <div className="container mx-auto py-6">
-      <h1 className="text-2xl font-semibold mb-6">Atık Miktarları (Tablo)</h1>
+     {/* diğer sayfalarda fetch yöntemi yaparken hata alıyorum ve hatayı çözemiyorum o yüzden diğlerini bu şekilde grafik
+     halinde duruyor. Grafik olrak fetch ettiğimde sayfayı yenilediğimde tüm veriler siliniyor. */}
       <div className="overflow-x-auto">
         <table className="table-auto w-full border-collapse border border-gray-300">
           <thead>
